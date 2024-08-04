@@ -1,0 +1,55 @@
+#main-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #FAF8F1;
+}
+.form-box{
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* login form style  */
+
+.login-section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.form-box{
+    border: 1px solid rgb(206, 206, 206);
+    height: auto;
+}
+
+/* Modify Details   */
+
+#detail-form{
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* admin panel */
+
+#admin-panel{
+    height: 80vh;
+}
+.sidebar{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-box > button > a{
+    text-decoration: none;
+    color: #fff;
+}
+#admin_heading{
+    font-size: 28px;
+    font-family: sora sans-serif;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #000;
+}
